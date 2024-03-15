@@ -4,18 +4,19 @@ Aim :
 The aim of this project is to build a model that predicts whether a passenger on the Titanic survived or not based on given features.
 
 Dataset :
-The dataset for this project is imported from a CSV file, "archive.zip". The dataset contains information about passengers on the Titanic, including their survival status, class (Pclass), sex (Gender), and age (Age).
+The dataset for this project is imported from a CSV file, "archive.zip". 
+The dataset contains information about passengers on the Titanic, including their survival status, class (Pclass), sex (Gender), and age (Age).
 
 Libraries Used 
 The following important libraries were used for this project:
 
-numpy
-pandas
-matplotlib.pyplot
-seaborn
-sklearn.preprocessing.LabelEncoder
-sklearn.model_selection.train_test_split
-sklearn.linear_model.LogisticRegression
+1.numpy
+2.pandas
+3.matplotlib.pyplot
+4.seaborn
+5.sklearn.preprocessing.LabelEncoder
+6.sklearn.model_selection.train_test_split
+7.sklearn.linear_model.LogisticRegression
 
 Data Exploration and Preprocessing:
 The dataset was loaded using pandas as a DataFrame, and its shape and a glimpse of the first 10 rows were displayed using df.shape and df.head(10).
